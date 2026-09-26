@@ -3395,3 +3395,74 @@ footer i {
         letter-spacing: 1.4px;
     }
 }
+
+/* =====================================================
+   EJS PROJECT VISUAL
+===================================================== */
+
+.ejs-project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 320px;
+    padding: 30px;
+}
+
+.ejs-project-window {
+    width: 90%;
+    max-width: 430px;
+    min-height: 240px;
+    border: 1px solid rgba(130, 140, 255, 0.35);
+    border-radius: 18px;
+    overflow: hidden;
+    background: rgba(10, 14, 30, 0.9);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+.ejs-project-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ejs-dots {
+    display: flex;
+    gap: 6px;
+}
+
+.ejs-dots span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.ejs-project-content {
+    min-height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.ejs-project-content i {
+    font-size: 48px;
+    color: #8b8fff;
+}
+
+.ejs-project-content strong {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.ejs-project-content small {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 12px;
+}
